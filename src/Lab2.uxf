@@ -1,1 +1,90 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>90</x><y>30</y><w>100</w><h>30</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;230&lt;/x&gt;&lt;y&gt;110&lt;/y&gt;&lt;w&gt;150&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;130;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;230&lt;/x&gt;&lt;y&gt;110&lt;/y&gt;&lt;w&gt;150&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;130;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;</help_text><element><id>UMLClass</id><coordinates><x>50</x><y>0</y><w>130</w><h>70</h></coordinates><panel_attributes>Class Diagram
+Assignment 2 
+Car Rental Application
+By: Rishabh Sahoo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>0</y><w>210</w><h>60</h></coordinates><panel_attributes>Car Rental Application::Driver
+--
+--
+main(String[] args)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>50</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>90</y><w>210</w><h>40</h></coordinates><panel_attributes>adapter.buildAuto
+--
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>150</y><w>600</w><h>170</h></coordinates><panel_attributes>adapter.ProxyAutomobile
+--
+util.FileIO autoutil;
+model.AutomobileTable automobileTable;
+--
+ProxyAutomobile()
+boolean updateOptionSetName(String automobileKey, String optionSetName, String nameNew)
+boolean updateOptionPrice(String automobileKey, String optionSetName, String optionName, double priceNew) 
+String buildAuto(String filename)
+boolean printAuto(String automobileKey)
+boolean serialize(String automobileKey, String fileName)
+String deserialize(String fileName)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>120</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>350</y><w>210</w><h>80</h></coordinates><panel_attributes>util.FileIO
+--
+--
+void read(String fileName, Automobile autoObj) void serialize(String fileName, Automobile autoObj) Automobile deserialize(String fileName)
+void print()
+String toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>308</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>450</y><w>230</w><h>130</h></coordinates><panel_attributes>exception.AutoException
+--
+Map&lt;Integer, String&gt; errorMessageTable; 
+int errorNumber;
+String errorMessage;
+model.Automobile automobileObject;
+Log log;
+--
+AutoException(int errorNumber_) 
+String fixString(int errorNumber)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>418</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>325</x><y>350</y><w>350</w><h>300</h></coordinates><panel_attributes>model.Automobile
+--
+static final long serialVersionUID 
+String modelName
+double basePrice
+OptionSet optionSetList[]
+int optionSetListListLength
+--
+Automobile()
+Automobile(int size)
+String getName()
+getPrice()
+OptionSet getOptionSet(int index)
+int length()
+OptionSet findOptionSet(String name)
+void setName(String name)
+void setPrice(double price_)
+int setOptionSet(String name)
+int setOptionSetOption(int indexSet, String name, double price_) 
+void print()
+String toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>465</x><y>309</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>205</x><y>391</y><w>140</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-
+</panel_attributes><additional_attributes>120;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>215</x><y>515</y><w>130</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;110;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>705</x><y>352</y><w>240</w><h>80</h></coordinates><panel_attributes>model.AutomobileTable
+--
+Map&lt;String, Automobile&gt; automobileTable
+--
+Automobile getByKey(String automobileKey)
+String insertOverwrite(Automobile)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>624</x><y>304</y><w>180</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;50;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>680</y><w>230</w><h>240</h></coordinates><panel_attributes>model.Automobile.OptionSet
+--
+static final long serialVersionUID 
+Option optionList[]
+String optionSetName
+int optionListLength
+--
+OptionSet()
+OptionSet(String name, int size)
+String getName()
+Option getOption(int index)
+int length()
+Option findOptionSet(String name)
+void setName(String name)
+int setOption(String name, double price_) 
+void print()
+String toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>474</x><y>641</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>950</y><w>240</w><h>200</h></coordinates><panel_attributes>model.Automobile.OptionSet.Option
+--
+static final long serialVersionUID 
+String optionName
+double price
+--
+Option()
+Option(String name, double price_) 
+String getName()
+double getPrice()
+void setName(String name)
+void setPrice(double price_)
+void print()
+String toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>475</x><y>910</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element></diagram>
