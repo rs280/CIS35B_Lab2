@@ -1,4 +1,4 @@
-# This project is for CIS 35B Singh. This is Lab1.
+# This project is for CIS 35B Singh. This is Lab 2.
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
