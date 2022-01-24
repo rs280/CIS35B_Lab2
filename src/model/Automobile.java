@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : Assignment 1
-// Author      : Branden Lee
-// Date        : 4/24/2018
-// Description : Automobile class for the KBB website application
+// Name        : Assignment 2
+// Author      : Rishabh Sahoo
+// Date        : 1/24/22
+// Description : Automobile class for the Car Rental website application
 //============================================================================
 package model;
 
