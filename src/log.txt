@@ -1,0 +1,2 @@
+Jan 24, 2022 7:50:14 AM exception.Log error
+WARNING: #200: Could not find the automobile text file
