@@ -1,5 +1,5 @@
 package adapter;
 
-public class BuildAuto extends ProxyAutomobile implements CreateAuto, UpdateAuto {
+public class BuildAuto extends ProxyAutomobile implements CreateAuto{
 	
 }

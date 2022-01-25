@@ -13,7 +13,7 @@ import adapter.*;
 public class Driver {
 
 	public static void main(String[] args) {
-		BuildAuto createAuto = new BuildAuto();
+		CreateAuto createAuto = new BuildAuto();
 		// Build Automobile Object from a file.
 		String automobileKey = createAuto.buildAuto("FordZTW.txt");
 		if (automobileKey != null) {

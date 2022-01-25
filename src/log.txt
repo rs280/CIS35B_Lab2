@@ -1,0 +1,44 @@
+Jan 24, 2022 7:56:38 AM exception.Log error
+WARNING: #200: Could not find the automobile text file
+Jan 24, 2022 7:56:52 AM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 7:56:52 AM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 7:56:52 AM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 7:56:52 AM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 7:56:52 AM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 7:56:52 AM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 7:56:52 AM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:55:11 PM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 8:55:11 PM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 8:55:11 PM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 8:55:11 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:55:11 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:55:11 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:55:11 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:58:42 PM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 8:58:42 PM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 8:58:42 PM exception.Log warning
+WARNING: #102: Missing name attribute for option in the automobile text file
+Jan 24, 2022 8:58:42 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:58:42 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:58:42 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
+Jan 24, 2022 8:58:42 PM exception.Log error
+WARNING: #500: Automobile added conficts with another automobile
